@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Top-level raw data files (Excel source files, not src/data JSON)
+/data/
+/Postman/
+
+# Environment - never commit credentials
+.env
+.env.local
+.env.*.local
+
+# FICO demo internals - not for public repo
+mockups/
+CLAUDE.md
+COD_RTO_Demo_Handover.md
+DefaultTermLibrary.xsd
+
+# Claude Code memory
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

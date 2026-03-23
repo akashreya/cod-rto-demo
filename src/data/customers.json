@@ -1,0 +1,74 @@
+[
+  {
+    "customerId": "CUST-MUM-001122",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@gmail.com",
+    "phone": "919867432109",
+    "loyaltyTier": "GOLD",
+    "sourcePlatform": "MYNTRA",
+    "city": "Mumbai"
+  },
+  {
+    "customerId": "CUST-DEL-009911",
+    "name": "Rohit Verma",
+    "email": "rohit.xyz99@outlook.com",
+    "phone": "919900112233",
+    "loyaltyTier": "NONE",
+    "sourcePlatform": "AMAZON",
+    "city": "Delhi"
+  },
+  {
+    "customerId": "CUST-KOC-003344",
+    "name": "Anjali Nair",
+    "email": "anjali.nair@gmail.com",
+    "phone": "919876543210",
+    "loyaltyTier": "NONE",
+    "sourcePlatform": "MYNTRA",
+    "city": "Kochi"
+  },
+  {
+    "customerId": "CUST-PAT-004455",
+    "name": "Suresh Gupta",
+    "email": "suresh.gupta@yahoo.com",
+    "phone": "919811223344",
+    "loyaltyTier": "BRONZE",
+    "sourcePlatform": "FLIPKART",
+    "city": "Patna"
+  },
+  {
+    "customerId": "CUST-BLR-005566",
+    "name": "Meera Iyer",
+    "email": "meera.iyer@gmail.com",
+    "phone": "919845678901",
+    "loyaltyTier": "SILVER",
+    "sourcePlatform": "MYNTRA",
+    "city": "Bengaluru"
+  },
+  {
+    "customerId": "CUST-PUN-006677",
+    "name": "Vikram Joshi",
+    "email": "vikram.joshi@outlook.com",
+    "phone": "919822334455",
+    "loyaltyTier": "BRONZE",
+    "sourcePlatform": "AMAZON",
+    "city": "Pune"
+  },
+  {
+    "customerId": "CUST-HYD-007788",
+    "name": "Fatima Sheikh",
+    "email": "fatima.sheikh@gmail.com",
+    "phone": "919988776655",
+    "loyaltyTier": "NONE",
+    "sourcePlatform": "FLIPKART",
+    "city": "Hyderabad"
+  },
+  {
+    "customerId": "CUST-CHN-008899",
+    "name": "Rajesh Pillai",
+    "email": "rajesh.pillai@gmail.com",
+    "phone": "919944332211",
+    "loyaltyTier": "PLATINUM",
+    "sourcePlatform": "MYNTRA",
+    "city": "Chennai"
+  }
+]

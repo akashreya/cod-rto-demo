@@ -1,0 +1,98 @@
+[
+  {
+    "phone": "9867432109",
+    "valid": true,
+    "voip": false,
+    "disposable": false,
+    "blacklisted": false,
+    "fraudScore": 3.0,
+    "associatedAccounts": 1,
+    "codOrders": 22,
+    "codSuccessRate": 0.955,
+    "riskCategory": "TRUSTED"
+  },
+  {
+    "phone": "9900112233",
+    "valid": true,
+    "voip": false,
+    "disposable": false,
+    "blacklisted": true,
+    "fraudScore": 72.0,
+    "associatedAccounts": 5,
+    "codOrders": 8,
+    "codSuccessRate": 0.25,
+    "riskCategory": "BLACKLISTED"
+  },
+  {
+    "phone": "9876543210",
+    "valid": true,
+    "voip": false,
+    "disposable": false,
+    "blacklisted": false,
+    "fraudScore": 22.0,
+    "associatedAccounts": 1,
+    "codOrders": 0,
+    "codSuccessRate": 0.0,
+    "riskCategory": "SUSPICIOUS"
+  },
+  {
+    "phone": "9811223344",
+    "valid": true,
+    "voip": false,
+    "disposable": false,
+    "blacklisted": false,
+    "fraudScore": 45.0,
+    "associatedAccounts": 2,
+    "codOrders": 10,
+    "codSuccessRate": 0.40,
+    "riskCategory": "SUSPICIOUS"
+  },
+  {
+    "phone": "9845678901",
+    "valid": true,
+    "voip": false,
+    "disposable": false,
+    "blacklisted": false,
+    "fraudScore": 12.0,
+    "associatedAccounts": 1,
+    "codOrders": 15,
+    "codSuccessRate": 0.80,
+    "riskCategory": "TRUSTED"
+  },
+  {
+    "phone": "9822334455",
+    "valid": true,
+    "voip": false,
+    "disposable": false,
+    "blacklisted": false,
+    "fraudScore": 34.0,
+    "associatedAccounts": 2,
+    "codOrders": 6,
+    "codSuccessRate": 0.60,
+    "riskCategory": "SUSPICIOUS"
+  },
+  {
+    "phone": "9988776655",
+    "valid": true,
+    "voip": false,
+    "disposable": false,
+    "blacklisted": false,
+    "fraudScore": 55.0,
+    "associatedAccounts": 3,
+    "codOrders": 4,
+    "codSuccessRate": 0.50,
+    "riskCategory": "SUSPICIOUS"
+  },
+  {
+    "phone": "9944332211",
+    "valid": true,
+    "voip": false,
+    "disposable": false,
+    "blacklisted": false,
+    "fraudScore": 2.0,
+    "associatedAccounts": 1,
+    "codOrders": 62,
+    "codSuccessRate": 0.984,
+    "riskCategory": "TRUSTED"
+  }
+]

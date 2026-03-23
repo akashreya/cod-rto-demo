@@ -1,0 +1,222 @@
+[
+  {
+    "CUSTOMER_ID": "CUST-MUM-001122",
+    "PINCODE": "400050",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-MUM-001122",
+    "PINCODE": "682001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-MUM-001122",
+    "PINCODE": "800001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-DEL-009911",
+    "PINCODE": "110085",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-DEL-009911",
+    "PINCODE": "226001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-DEL-009911",
+    "PINCODE": "831001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-KOC-003344",
+    "PINCODE": "682001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-KOC-003344",
+    "PINCODE": "302001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-PAT-004455",
+    "PINCODE": "800001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": true,
+    "buildingRtoRate": 0.43,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-PAT-004455",
+    "PINCODE": "600001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-PAT-004455",
+    "PINCODE": "462001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-PAT-004455",
+    "PINCODE": "831001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-BLR-005566",
+    "PINCODE": "560034",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": true,
+    "buildingRtoRate": 0.38,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-BLR-005566",
+    "PINCODE": "302001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-PUN-006677",
+    "PINCODE": "411001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": true,
+    "buildingRtoRate": 0.40,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-PUN-006677",
+    "PINCODE": "462001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-PUN-006677",
+    "PINCODE": "831001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-HYD-007788",
+    "PINCODE": "500081",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": true,
+    "buildingRtoRate": 0.42,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-HYD-007788",
+    "PINCODE": "226001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-CHN-008899",
+    "PINCODE": "600001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-CHN-008899",
+    "PINCODE": "682001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  },
+  {
+    "CUSTOMER_ID": "CUST-CHN-008899",
+    "PINCODE": "800001",
+    "poBox": false,
+    "fakePatternDetected": false,
+    "matchedPattern": null,
+    "highRtoBuilding": false,
+    "buildingRtoRate": 0.0,
+    "deliverable": true
+  }
+]

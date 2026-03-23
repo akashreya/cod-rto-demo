@@ -1,0 +1,622 @@
+[
+  {
+    "pincode": "400050",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.91,
+        "avgDeliveryDays": 1.8,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.78,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "BLUEDART",
+        "partnerName": "BlueDart",
+        "deliverySuccessRate": 0.95,
+        "avgDeliveryDays": 1.2,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.90,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "EKART",
+        "partnerName": "Ekart",
+        "deliverySuccessRate": 0.88,
+        "avgDeliveryDays": 2.0,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.72,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.82,
+        "avgDeliveryDays": 2.2,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.66,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      }
+    ]
+  },
+  {
+    "pincode": "110085",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.88,
+        "avgDeliveryDays": 2.0,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.74,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "BLUEDART",
+        "partnerName": "BlueDart",
+        "deliverySuccessRate": 0.92,
+        "avgDeliveryDays": 1.5,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.88,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "EKART",
+        "partnerName": "Ekart",
+        "deliverySuccessRate": 0.85,
+        "avgDeliveryDays": 2.2,
+        "currentLoad": "HIGH",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.70,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": true,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.76,
+        "avgDeliveryDays": 2.8,
+        "currentLoad": "HIGH",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.61,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": true,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "560034",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.90,
+        "avgDeliveryDays": 1.5,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.80,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "BLUEDART",
+        "partnerName": "BlueDart",
+        "deliverySuccessRate": 0.94,
+        "avgDeliveryDays": 1.2,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.89,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "EKART",
+        "partnerName": "Ekart",
+        "deliverySuccessRate": 0.91,
+        "avgDeliveryDays": 1.8,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.76,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.84,
+        "avgDeliveryDays": 2.0,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.68,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      }
+    ]
+  },
+  {
+    "pincode": "600001",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.92,
+        "avgDeliveryDays": 1.4,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.82,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "BLUEDART",
+        "partnerName": "BlueDart",
+        "deliverySuccessRate": 0.96,
+        "avgDeliveryDays": 1.0,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.92,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "EKART",
+        "partnerName": "Ekart",
+        "deliverySuccessRate": 0.89,
+        "avgDeliveryDays": 1.9,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.74,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.83,
+        "avgDeliveryDays": 2.1,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.65,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "500081",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.87,
+        "avgDeliveryDays": 2.0,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.75,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "BLUEDART",
+        "partnerName": "BlueDart",
+        "deliverySuccessRate": 0.93,
+        "avgDeliveryDays": 1.3,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.88,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "EKART",
+        "partnerName": "Ekart",
+        "deliverySuccessRate": 0.86,
+        "avgDeliveryDays": 2.2,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.70,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.80,
+        "avgDeliveryDays": 2.5,
+        "currentLoad": "HIGH",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.62,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": true,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "411001",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.89,
+        "avgDeliveryDays": 1.8,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.77,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "BLUEDART",
+        "partnerName": "BlueDart",
+        "deliverySuccessRate": 0.94,
+        "avgDeliveryDays": 1.2,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "HIGH",
+        "ndrResolutionRate": 0.89,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "EKART",
+        "partnerName": "Ekart",
+        "deliverySuccessRate": 0.87,
+        "avgDeliveryDays": 2.0,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.71,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.81,
+        "avgDeliveryDays": 2.3,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.64,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "682001",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.83,
+        "avgDeliveryDays": 2.5,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.70,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "XPRESSBEES",
+        "partnerName": "Xpressbees",
+        "deliverySuccessRate": 0.80,
+        "avgDeliveryDays": 2.8,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.66,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.78,
+        "avgDeliveryDays": 3.0,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "LOW",
+        "ndrResolutionRate": 0.60,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "302001",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.82,
+        "avgDeliveryDays": 2.6,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.68,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "XPRESSBEES",
+        "partnerName": "Xpressbees",
+        "deliverySuccessRate": 0.79,
+        "avgDeliveryDays": 2.9,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.64,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.76,
+        "avgDeliveryDays": 3.2,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "LOW",
+        "ndrResolutionRate": 0.58,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "226001",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.81,
+        "avgDeliveryDays": 2.8,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.67,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "XPRESSBEES",
+        "partnerName": "Xpressbees",
+        "deliverySuccessRate": 0.78,
+        "avgDeliveryDays": 3.0,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.62,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.74,
+        "avgDeliveryDays": 3.5,
+        "currentLoad": "HIGH",
+        "pincodeExpertise": "LOW",
+        "ndrResolutionRate": 0.57,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": true,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "462001",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.84,
+        "avgDeliveryDays": 2.4,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.69,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "XPRESSBEES",
+        "partnerName": "Xpressbees",
+        "deliverySuccessRate": 0.80,
+        "avgDeliveryDays": 2.7,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "MEDIUM",
+        "ndrResolutionRate": 0.65,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": false
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.77,
+        "avgDeliveryDays": 3.1,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "LOW",
+        "ndrResolutionRate": 0.59,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "800001",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.70,
+        "avgDeliveryDays": 3.8,
+        "currentLoad": "MEDIUM",
+        "pincodeExpertise": "LOW",
+        "ndrResolutionRate": 0.55,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.65,
+        "avgDeliveryDays": 4.5,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "LOW",
+        "ndrResolutionRate": 0.50,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      }
+    ]
+  },
+  {
+    "pincode": "831001",
+    "partners": [
+      {
+        "partnerId": "DELHIVERY",
+        "partnerName": "Delhivery",
+        "deliverySuccessRate": 0.68,
+        "avgDeliveryDays": 4.0,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "LOW",
+        "ndrResolutionRate": 0.52,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      },
+      {
+        "partnerId": "SHADOWFAX",
+        "partnerName": "Shadowfax",
+        "deliverySuccessRate": 0.63,
+        "avgDeliveryDays": 5.0,
+        "currentLoad": "LOW",
+        "pincodeExpertise": "LOW",
+        "ndrResolutionRate": 0.48,
+        "active": true,
+        "eligible": true,
+        "score": 0.0,
+        "flagOverloaded": false,
+        "flagLowNdr": true
+      }
+    ]
+  }
+]
