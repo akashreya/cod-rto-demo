@@ -7,16 +7,16 @@ export default defineConfig(({ mode }) => {
   const tokenUrl = new URL(env.VITE_DM_TOKEN_URL)
   const dmUrl    = new URL(env.VITE_DM_ENDPOINT_URL)
 
-  // Browser calls /proxy/token and /proxy/dm (same origin = no CORS).
-  // Vite server rewrites and forwards the request to FICO server-side.
-  // Server-to-server calls have no CORS restrictions.
+  // Browser calls /api/token and /api/dm (same origin = no CORS).
+  // In dev: Vite proxies these to FICO server-side (server-to-server, no CORS).
+  // In Vercel: api/token.js and api/dm.js serverless functions handle them.
   const proxy = {
-    '/proxy/token': {
+    '/api/token': {
       target:      tokenUrl.origin,           // https://iam-svc.dms.uset2.ficoanalyticcloud.com
       changeOrigin: true,
       rewrite:     () => tokenUrl.pathname,   // /registration/rest/client/token
     },
-    '/proxy/dm': {
+    '/api/dm': {
       target:      dmUrl.origin,              // https://app.dms.uset2.ficoanalyticcloud.com
       changeOrigin: true,
       rewrite:     () => dmUrl.pathname + dmUrl.search,  // /qr0nt2pjqj/.../processWithDecisionFlow?solutionID=...
