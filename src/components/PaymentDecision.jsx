@@ -111,14 +111,14 @@ export default function PaymentDecision({
     <div className="fade-in">
 
       {/* Prepaid nudge banner */}
-      {action === 'OFFER_PREPAID_DISCOUNT' && (
+      {action === 'OFFER_PREPAID_DISCOUNT' && outcome?.incentiveAmount > 0 && (
         <div style={{
           marginBottom: 16, background: '#E8F4FD', border: '1px solid #B8D9F5',
           borderRadius: 4, padding: '12px 16px', display: 'flex', alignItems: 'center', gap: 12
         }}>
           <span style={{ fontSize: 24 }}>💙</span>
           <div>
-            <div style={{ fontSize: 14, fontWeight: 700, color: '#0A4C8C' }}>Pay online now and get ₹80 instant cashback on this order</div>
+            <div style={{ fontSize: 14, fontWeight: 700, color: '#0A4C8C' }}>Pay online now and get {fmt(outcome.incentiveAmount)} instant cashback on this order</div>
             <div style={{ fontSize: 12, color: '#1565A0', marginTop: 2 }}>Limited time offer - available for this order only</div>
           </div>
         </div>
