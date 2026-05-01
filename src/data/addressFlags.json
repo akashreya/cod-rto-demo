@@ -6,7 +6,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -16,7 +16,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -26,7 +26,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -36,7 +36,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -46,7 +46,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -56,7 +56,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -66,7 +66,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -76,7 +76,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -96,7 +96,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -106,7 +106,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -116,7 +116,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -136,7 +136,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -146,7 +146,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": true,
-    "buildingRtoRate": 0.40,
+    "buildingRtoRate": 0.4,
     "deliverable": true
   },
   {
@@ -156,7 +156,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -166,7 +166,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -186,7 +186,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -196,7 +196,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -206,7 +206,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   },
   {
@@ -216,7 +216,7 @@
     "fakePatternDetected": false,
     "matchedPattern": null,
     "highRtoBuilding": false,
-    "buildingRtoRate": 0.0,
+    "buildingRtoRate": 0,
     "deliverable": true
   }
 ]

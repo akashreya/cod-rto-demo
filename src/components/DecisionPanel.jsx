@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { T } from '../tokens'
 
 function highlight(json) {
   const s = JSON.stringify(json, null, 2)
@@ -6,7 +7,7 @@ function highlight(json) {
   return s.replace(
     /(\"(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*\"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g,
     match => {
-      const map = { key: '#1565A0', string: '#007600', number: '#B12704', boolean: '#7B1FA2', null: '#888' }
+      const map = { key: T.sky, string: T.mint, number: T.accent, boolean: '#A78BFA', null: T.fg4 }
       let t = 'number'
       if (/^"/.test(match)) t = /:$/.test(match) ? 'key' : 'string'
       else if (/true|false/.test(match)) t = 'boolean'
@@ -17,22 +18,22 @@ function highlight(json) {
 }
 
 function SignalDot({ level }) {
-  const colors = { green: '#007600', amber: '#FF8F00', red: '#B12704', blue: '#0066C0', gray: '#999' }
-  const c = colors[level] || colors.gray
+  const colors = { green: T.mint, amber: T.accent, red: T.danger, blue: T.sky, gray: T.fg4 }
+  const c = colors[level] || T.fg4
   return (
     <div style={{
       width: 8, height: 8, borderRadius: '50%', flexShrink: 0, background: c,
-      boxShadow: level !== 'gray' ? `0 0 4px ${c}88` : 'none'
+      boxShadow: level !== 'gray' ? `0 0 6px ${c}99` : 'none',
     }} />
   )
 }
 
 function sigColor(level) {
-  return { green: '#007600', red: '#B12704', amber: '#B85C00', blue: '#0066C0', gray: '#888' }[level] || '#888'
+  return { green: T.mint, red: T.danger, amber: T.accent, blue: T.sky, gray: T.fg4 }[level] || T.fg4
 }
 
 export default function DecisionPanel({ dmResponse, lastPayload, action, outcome, riskScore, fulfillment, partnerAssignment }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
   const [tab,  setTab]  = useState('signals')
 
   const ctx  = dmResponse?.evaluationContext
@@ -52,58 +53,67 @@ export default function DecisionPanel({ dmResponse, lastPayload, action, outcome
   const actLevel     = { ALLOW_COD: 'green', BLOCK_COD: 'red', REQUIRE_OTP: 'amber', OFFER_PREPAID_DISCOUNT: 'blue' }[action] || 'gray'
 
   const signals = [
-    { label: 'Phone Status',      val: pv?.riskCategory ?? 'N/A',                                          level: phoneLevel },
-    { label: 'Pincode Risk',      val: pr?.riskLevel ?? 'N/A',                                             level: pincodeLevel },
-    { label: 'Customer RTO Rate', val: rtoRate !== undefined ? `${(rtoRate * 100).toFixed(0)}%` : 'N/A',   level: rtoLevel },
-    { label: 'Fraud Score',       val: fi ? fs.toFixed(1) : '-',                                           level: fsLevel },
-    { label: 'COD Decision',      val: action ?? 'N/A',                                                    level: actLevel },
+    { label: 'Phone Status',      val: pv?.riskCategory ?? 'N/A',                                            level: phoneLevel },
+    { label: 'Pincode Risk',      val: pr?.riskLevel ?? 'N/A',                                               level: pincodeLevel },
+    { label: 'Customer RTO Rate', val: rtoRate !== undefined ? `${(rtoRate * 100).toFixed(0)}%` : 'N/A',     level: rtoLevel },
+    { label: 'Fraud Score',       val: fi ? fs.toFixed(1) : '-',                                             level: fsLevel },
+    { label: 'COD Decision',      val: action ?? 'N/A',                                                      level: actLevel },
     { label: 'Risk Score',        val: riskScore?.finalScore != null ? riskScore.finalScore.toFixed(0) : '-', level: 'blue' },
-    { label: 'Delivery Partner',  val: partnerAssignment?.partnerName ?? '-',                              level: 'blue' },
-    { label: 'Dark Store',        val: fulfillment?.darkStoreName ?? '-',                                   level: 'blue' },
+    { label: 'Delivery Partner',  val: partnerAssignment?.partnerName ?? '-',                                level: 'blue' },
+    { label: 'Dark Store',        val: fulfillment?.darkStoreName ?? '-',                                     level: 'blue' },
   ]
 
   const actionBadge = {
-    ALLOW_COD:              { text: action, color: '#007600', bg: '#F0FBF4', border: '#00A65033' },
-    BLOCK_COD:              { text: action, color: '#B12704', bg: '#FFF0F0', border: '#F5BDBC' },
-    REQUIRE_OTP:            { text: action, color: '#B85C00', bg: '#FFF3E0', border: '#FFCC80' },
-    OFFER_PREPAID_DISCOUNT: { text: action, color: '#0066C0', bg: '#E8F4FD', border: '#B8D9F5' },
+    ALLOW_COD:              { color: T.mint,   bg: T.mintTint,   border: `${T.mint}44` },
+    BLOCK_COD:              { color: T.danger, bg: T.dangerTint, border: `${T.danger}44` },
+    REQUIRE_OTP:            { color: T.sky,    bg: T.skyTint,    border: `${T.sky}44` },
+    OFFER_PREPAID_DISCOUNT: { color: T.accent, bg: T.accentTint, border: `${T.accent}44` },
   }[action]
 
   return (
-    <div style={{ background: '#FFF', border: '1px solid #DDD', borderRadius: 4, overflow: 'hidden' }}>
+    <div style={{ background: T.bg1, borderRadius: 20, border: `1px solid ${T.line}`, overflow: 'hidden' }}>
 
-      {/* Toggle button */}
+      {/* Toggle header */}
       <button onClick={() => setOpen(!open)}
         style={{
-          width: '100%', padding: '12px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-          background: open ? '#FAFAFA' : '#FFF', border: 'none', cursor: 'pointer', borderBottom: open ? '1px solid #EEE' : 'none'
+          width: '100%', padding: '16px 18px',
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          background: 'transparent', border: 'none', cursor: 'pointer',
+          borderBottom: open ? `1px solid ${T.line}` : 'none',
+          fontFamily: 'inherit',
         }}>
         <span style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <span style={{ fontSize: 15 }}>⚡</span>
-          <span style={{ fontSize: 13, fontWeight: 600, color: '#0F1111' }}>See Decision Details</span>
+          <svg width={14} height={14} viewBox="0 0 24 24" fill="none"
+            stroke={T.primary} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+            <polygon points="13 2 4 14 12 14 11 22 20 10 12 10 13 2"/>
+          </svg>
+          <span style={{ fontSize: 13, fontWeight: 800, color: T.fg0 }}>Decision Inspector</span>
           {action && actionBadge && (
             <span style={{
-              fontSize: 11, padding: '2px 8px', borderRadius: 3, fontWeight: 600,
-              color: actionBadge.color, background: actionBadge.bg, border: `1px solid ${actionBadge.border}`
-            }}>{actionBadge.text}</span>
+              fontSize: 10, padding: '3px 9px', borderRadius: 999, fontWeight: 800, letterSpacing: 0.5,
+              color: actionBadge.color, background: actionBadge.bg, border: `1px solid ${actionBadge.border}`,
+            }}>{action}</span>
           )}
         </span>
-        <span style={{ fontSize: 13, color: '#888', transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s', display: 'inline-block' }}>▼</span>
+        <svg width={14} height={14} viewBox="0 0 24 24" fill="none"
+          stroke={T.fg3} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"
+          style={{ transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }}>
+          <polyline points="18 15 12 9 6 15"/>
+        </svg>
       </button>
 
       {open && (
         <div>
           {/* Tabs */}
-          <div style={{ display: 'flex', borderBottom: '1px solid #EEE' }}>
-            {[['signals', 'Signals Summary'], ['raw', 'Raw Response']].map(([t, label]) => (
+          <div style={{ display: 'flex', borderBottom: `1px solid ${T.line}` }}>
+            {[['signals', 'Signals'], ['raw', 'Raw JSON']].map(([t, label]) => (
               <button key={t} onClick={() => setTab(t)}
                 style={{
-                  flex: 1, padding: '10px 12px', fontSize: 12, fontWeight: 600,
-                  border: 'none', cursor: 'pointer', transition: 'all 0.15s',
-                  borderBottom: tab === t ? '2px solid #00A650' : '2px solid transparent',
-                  background: tab === t ? '#F0FBF4' : '#FFF',
-                  color: tab === t ? '#007600' : '#555',
-                  marginBottom: -1
+                  flex: 1, padding: '10px 14px', fontSize: 12, fontWeight: 700,
+                  border: 'none', cursor: 'pointer', transition: 'all .15s',
+                  borderBottom: tab === t ? `2px solid ${T.primary}` : '2px solid transparent',
+                  background: 'transparent', color: tab === t ? T.primary : T.fg3,
+                  marginBottom: -1, fontFamily: 'inherit',
                 }}>
                 {label}
               </button>
@@ -115,23 +125,34 @@ export default function DecisionPanel({ dmResponse, lastPayload, action, outcome
               {signals.map(sig => (
                 <div key={sig.label} style={{
                   display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                  padding: '8px 10px', borderRadius: 4
+                  padding: '9px 10px', borderRadius: 10,
+                  transition: 'background .1s',
                 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                     <SignalDot level={sig.level} />
-                    <span style={{ fontSize: 12, color: '#555' }}>{sig.label}</span>
+                    <span style={{ fontSize: 12, color: T.fg2 }}>{sig.label}</span>
                   </div>
-                  <span style={{ fontSize: 12, fontWeight: 600, fontFamily: 'monospace', color: sigColor(sig.level) }}>{sig.val}</span>
+                  <span style={{
+                    fontSize: 11, fontWeight: 800, fontFamily: 'Consolas, monospace',
+                    color: sigColor(sig.level),
+                    background: `${sigColor(sig.level)}14`,
+                    padding: '2px 8px', borderRadius: 6,
+                  }}>
+                    {sig.val}
+                  </span>
                 </div>
               ))}
             </div>
           ) : (
-            <div style={{ padding: '10px 12px' }}>
+            <div style={{ padding: '12px 14px' }}>
               <div style={{
-                background: '#F8F8F8', border: '1px solid #E5E5E5', borderRadius: 4,
-                padding: '12px', overflow: 'auto', maxHeight: 380
+                background: T.bg0, border: `1px solid ${T.line}`, borderRadius: 12,
+                padding: '14px', overflow: 'auto', maxHeight: 400,
               }}>
-                <pre style={{ fontSize: 11, lineHeight: 1.6, fontFamily: 'Consolas, monospace', margin: 0, color: '#333' }}
+                <pre style={{
+                  fontSize: 11, lineHeight: 1.7, fontFamily: 'Consolas, monospace',
+                  margin: 0, color: T.fg2,
+                }}
                   dangerouslySetInnerHTML={{ __html: highlight(dmResponse?.evaluationContext?.response) }} />
               </div>
             </div>

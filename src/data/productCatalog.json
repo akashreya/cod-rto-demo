@@ -23,7 +23,7 @@
     "returnRate": 0.06,
     "fraudIncidents": 0,
     "avgRtoRate": 0.05,
-    "imageUrl": "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1743229995505-d6374996df1c?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "MYNTRA-JEANS-003",
@@ -62,7 +62,7 @@
     "returnRate": 0.07,
     "fraudIncidents": 0,
     "avgRtoRate": 0.06,
-    "imageUrl": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1756483488645-5973a1a92e33?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "MYNTRA-KURTI-005",
@@ -75,7 +75,7 @@
     "returnRate": 0.05,
     "fraudIncidents": 0,
     "avgRtoRate": 0.04,
-    "imageUrl": "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1741847639057-b51a25d42892?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "MYNTRA-DRESS-006",
@@ -114,7 +114,7 @@
     "returnRate": 0.05,
     "fraudIncidents": 0,
     "avgRtoRate": 0.04,
-    "imageUrl": "https://images.unsplash.com/photo-1639628735078-ed2f038a193e?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1708534246055-d7b149acb731?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "MYNTRA-JACKET-009",
@@ -127,7 +127,7 @@
     "returnRate": 0.17,
     "fraudIncidents": 1,
     "avgRtoRate": 0.14,
-    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1562068391-2ccb2c3e7c2b?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "MYNTRA-SHOES-004",
@@ -153,7 +153,7 @@
     "returnRate": 0.2,
     "fraudIncidents": 1,
     "avgRtoRate": 0.18,
-    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1715479175562-2c6d6546930b?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "ADIDAS-SLIPPER-001",
@@ -166,7 +166,7 @@
     "returnRate": 0.15,
     "fraudIncidents": 0,
     "avgRtoRate": 0.13,
-    "imageUrl": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1620288091141-71640b6cd6f4?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "NIKE-AIRMAX-001",
@@ -192,7 +192,7 @@
     "returnRate": 0.16,
     "fraudIncidents": 0,
     "avgRtoRate": 0.14,
-    "imageUrl": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1765530813482-3c864d17ac03?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "BATA-FORMAL-001",
@@ -205,7 +205,7 @@
     "returnRate": 0.17,
     "fraudIncidents": 0,
     "avgRtoRate": 0.15,
-    "imageUrl": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1472591651607-70e2d88ae3c4?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "BOAT-AIRDOPES-141",
@@ -218,7 +218,7 @@
     "returnRate": 0.14,
     "fraudIncidents": 1,
     "avgRtoRate": 0.16,
-    "imageUrl": "https://images.unsplash.com/photo-1590658165737-15a047b7c863?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "JBL-SPEAKER-001",
@@ -257,7 +257,7 @@
     "returnRate": 0.08,
     "fraudIncidents": 3,
     "avgRtoRate": 0.1,
-    "imageUrl": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1523474438810-b04a2480633c?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "REALME-GT6-001",
@@ -374,7 +374,7 @@
     "returnRate": 0.1,
     "fraudIncidents": 0,
     "avgRtoRate": 0.09,
-    "imageUrl": "https://images.unsplash.com/photo-1562038369-ad603a5c6093?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1647900893846-e6ab4048e824?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "BRAUN-SHAVER-001",
@@ -387,7 +387,7 @@
     "returnRate": 0.09,
     "fraudIncidents": 0,
     "avgRtoRate": 0.08,
-    "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1508380702597-707c1b00695c?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "PANASONIC-HAIRDRYER-001",
@@ -400,7 +400,7 @@
     "returnRate": 0.11,
     "fraudIncidents": 1,
     "avgRtoRate": 0.1,
-    "imageUrl": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1621607510248-9c78bbab941b?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "HOME-LAMP-001",
@@ -426,7 +426,7 @@
     "returnRate": 0.09,
     "fraudIncidents": 0,
     "avgRtoRate": 0.07,
-    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1771039621945-c79535c6361c?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "HOME-CLOCK-001",
@@ -465,7 +465,7 @@
     "returnRate": 0.05,
     "fraudIncidents": 0,
     "avgRtoRate": 0.04,
-    "imageUrl": "https://images.unsplash.com/photo-1581783342308-f792dbdd1b3b?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1618722060945-b87f7326995b?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "HOME-CUSHION-001",
@@ -478,7 +478,7 @@
     "returnRate": 0.06,
     "fraudIncidents": 0,
     "avgRtoRate": 0.05,
-    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1553114552-c4ece3a33c93?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "BEAUTY-MOISTURIZER-001",
@@ -517,7 +517,7 @@
     "returnRate": 0.03,
     "fraudIncidents": 0,
     "avgRtoRate": 0.03,
-    "imageUrl": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1672749489615-2eb286c851e5?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "BEAUTY-FACEWASH-001",
@@ -530,7 +530,7 @@
     "returnRate": 0.04,
     "fraudIncidents": 0,
     "avgRtoRate": 0.03,
-    "imageUrl": "https://images.unsplash.com/photo-1570194065650-d99fb4b8ccb0?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1643747238009-6863ea63e78d?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "BEAUTY-LIPSTICK-001",
@@ -556,7 +556,7 @@
     "returnRate": 0.08,
     "fraudIncidents": 0,
     "avgRtoRate": 0.07,
-    "imageUrl": "https://images.unsplash.com/photo-1611931978636-d3c2a27b0cf6?w=400&h=300&fit=crop&auto=format&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1622780432053-767528938f34?w=400&h=300&fit=crop&auto=format&q=80"
   },
   {
     "sku": "WILDCRAFT-BAG-001",

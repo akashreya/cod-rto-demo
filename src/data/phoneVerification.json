@@ -5,7 +5,7 @@
     "voip": false,
     "disposable": false,
     "blacklisted": false,
-    "fraudScore": 3.0,
+    "fraudScore": 3,
     "associatedAccounts": 1,
     "codOrders": 22,
     "codSuccessRate": 0.955,
@@ -17,7 +17,7 @@
     "voip": false,
     "disposable": false,
     "blacklisted": true,
-    "fraudScore": 72.0,
+    "fraudScore": 72,
     "associatedAccounts": 5,
     "codOrders": 8,
     "codSuccessRate": 0.25,
@@ -29,11 +29,11 @@
     "voip": false,
     "disposable": false,
     "blacklisted": false,
-    "fraudScore": 22.0,
-    "associatedAccounts": 1,
-    "codOrders": 0,
-    "codSuccessRate": 0.0,
-    "riskCategory": "SUSPICIOUS"
+    "fraudScore": 18,
+    "associatedAccounts": 2,
+    "codOrders": 9,
+    "codSuccessRate": 0.667,
+    "riskCategory": "TRUSTED"
   },
   {
     "phone": "9811223344",
@@ -41,10 +41,10 @@
     "voip": false,
     "disposable": false,
     "blacklisted": false,
-    "fraudScore": 45.0,
+    "fraudScore": 45,
     "associatedAccounts": 2,
     "codOrders": 10,
-    "codSuccessRate": 0.40,
+    "codSuccessRate": 0.4,
     "riskCategory": "SUSPICIOUS"
   },
   {
@@ -53,10 +53,10 @@
     "voip": false,
     "disposable": false,
     "blacklisted": false,
-    "fraudScore": 12.0,
+    "fraudScore": 12,
     "associatedAccounts": 1,
     "codOrders": 15,
-    "codSuccessRate": 0.80,
+    "codSuccessRate": 0.8,
     "riskCategory": "TRUSTED"
   },
   {
@@ -65,10 +65,10 @@
     "voip": false,
     "disposable": false,
     "blacklisted": false,
-    "fraudScore": 34.0,
+    "fraudScore": 34,
     "associatedAccounts": 2,
     "codOrders": 6,
-    "codSuccessRate": 0.60,
+    "codSuccessRate": 0.6,
     "riskCategory": "SUSPICIOUS"
   },
   {
@@ -77,10 +77,10 @@
     "voip": false,
     "disposable": false,
     "blacklisted": false,
-    "fraudScore": 55.0,
+    "fraudScore": 55,
     "associatedAccounts": 3,
     "codOrders": 4,
-    "codSuccessRate": 0.50,
+    "codSuccessRate": 0.5,
     "riskCategory": "SUSPICIOUS"
   },
   {
@@ -89,7 +89,7 @@
     "voip": false,
     "disposable": false,
     "blacklisted": false,
-    "fraudScore": 2.0,
+    "fraudScore": 2,
     "associatedAccounts": 1,
     "codOrders": 62,
     "codSuccessRate": 0.984,
