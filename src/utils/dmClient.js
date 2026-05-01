@@ -1,5 +1,5 @@
 import {
-  DM_ENDPOINT_URL,
+  PLOR_ENDPOINT_URL,
   DM_TOKEN_URL,
   DM_CLIENT_ID,
   DM_CLIENT_SECRET,
@@ -32,10 +32,11 @@ async function getToken() {
 }
 
 /**
- * Calls FICO Decision Manager and returns the parsed JSON response.
+ * Calls the FICO PLOR main process and returns a normalized response.
  * Automatically fetches and caches the bearer token - no manual token needed.
  * Enforces a minimum display time so the loading screen is readable.
  *
+ * Returns: { evaluationContext: { response: { outcome, riskScore, partnerAssignment, fulfillment } } }
  * Throws an Error on non-2xx HTTP status or network timeout (10s).
  */
 export async function callDM(payload) {
@@ -49,15 +50,15 @@ export async function callDM(payload) {
     throw new Error(`Could not obtain auth token: ${err.message}`)
   }
 
-  const doRequest = (t) => fetch(DM_ENDPOINT_URL, {
+  const doRequest = (t) => fetch(PLOR_ENDPOINT_URL, {
     method: 'POST',
     headers: {
       'Content-Type':  'application/json',
-      'Accept':        'application/json',
+      'Accept':        'application/vnd.com.fico.platform.orchestration.v1_0+json',
       'Authorization': `Bearer ${t}`,
     },
     body:   JSON.stringify(payload),
-    signal: AbortSignal.timeout(10_000),
+    signal: AbortSignal.timeout(30_000),
   })
 
   let resp
@@ -66,9 +67,9 @@ export async function callDM(payload) {
   } catch (err) {
     await _enforceMinDelay(start)
     if (err.name === 'TimeoutError' || err.name === 'AbortError') {
-      throw new Error('Request timed out after 10 seconds. Check your network or retry.')
+      throw new Error('Request timed out after 30 seconds. Check your network or retry.')
     }
-    throw new Error(err.message || 'Network error contacting Decision Manager')
+    throw new Error(err.message || 'Network error contacting PLOR')
   }
 
   // Token expired mid-session - clear cache and retry once with a fresh token
@@ -88,10 +89,27 @@ export async function callDM(payload) {
 
   if (!resp.ok) {
     const body = await resp.text().catch(() => '')
-    throw new Error(`DM returned HTTP ${resp.status}${body ? ': ' + body.slice(0, 200) : ''}`)
+    throw new Error(`PLOR returned HTTP ${resp.status}${body ? ': ' + body.slice(0, 200) : ''}`)
   }
 
-  return resp.json()
+  const json = await resp.json()
+
+  // PLOR response: { transactionId, content: { outputVariables: { decisionResponse: {...} } } }
+  // Normalize to the shape the UI expects: { evaluationContext: { response: {...} } }
+  const dr = json?.content?.outputVariables?.decisionResponse ?? {}
+  return {
+    evaluationContext: {
+      response: {
+        outcome:           dr.outcome,
+        riskScore:         dr.riskScore,
+        partnerAssignment: dr.partnerAssignment
+          ? { ...dr.partnerAssignment, avgDeliveryDays: dr.fulfillment?.deliveryEstimateDays }
+          : undefined,
+        fulfillment:       dr.fulfillment,
+        metadata:          dr.metadata,
+      },
+    },
+  }
 }
 
 async function _enforceMinDelay(startMs) {
