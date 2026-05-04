@@ -710,7 +710,7 @@ function TrustStrip() {
     },
     {
       color: T.accent,
-      value: '28% → 8%',
+      value: '25% → 18%',
       title: 'RTO Rate Reduction',
       sub: 'Target outcome on COD orders without blocking genuine buyers',
       icon: (
