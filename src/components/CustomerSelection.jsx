@@ -35,7 +35,7 @@ export default function CustomerSelection({ selectedCustomer, onSelect, onContin
           Who is shopping today?
         </h1>
         <p style={{ color: T.fg3, fontSize: 14, margin: 0 }}>
-          Select a customer profile - each is engineered to produce a specific outcome from Decision Intelligence for eCommerce
+          Select a customer profile. Then choose a product and address - the combination drives the decision.
         </p>
       </div>
 
