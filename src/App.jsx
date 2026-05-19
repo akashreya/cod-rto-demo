@@ -238,7 +238,13 @@ function TopBar({ screen, customer, cartCount, onReset }) {
 }
 
 function AppFooter() {
-  const team = ['Akash S Kantharaj', 'Irene Daniel', 'Adhikesav M', 'Supriya R', 'Murugesan D']
+  const team = [
+    { name: 'Akash S Kantharaj', url: 'https://www.linkedin.com/in/akash-s-kantharaj/' },
+    { name: 'Irene Daniel',      url: 'https://www.linkedin.com/in/irene-daniel-a34435a5/' },
+    { name: 'Adhikesav M',       url: 'https://www.linkedin.com/in/adhikesav-m-167162221/' },
+    { name: 'Supriya R',         url: 'https://www.linkedin.com/in/supriya-radhakrishna-02a488225/' },
+    { name: 'Murugesan D',       url: 'https://www.linkedin.com/in/murugesan-durairaj-89673b24/' },
+  ]
   return (
     <footer style={{
       borderTop: `1px solid ${T.line}`,
@@ -269,9 +275,13 @@ function AppFooter() {
           <span style={{ fontSize: 10, color: T.fg4, letterSpacing: 0.5, textTransform: 'uppercase', marginRight: 4 }}>
             Team
           </span>
-          {team.map((name, i) => (
-            <span key={name} style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-              <span style={{ fontSize: 11, fontWeight: 600, color: T.fg2 }}>{name}</span>
+          {team.map((m, i) => (
+            <span key={m.name} style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+              <a href={m.url} target="_blank" rel="noopener noreferrer"
+                className="team-link"
+                style={{ fontSize: 11, fontWeight: 600, color: T.fg2, textDecoration: 'none' }}>
+                {m.name}
+              </a>
               {i < team.length - 1 && (
                 <span style={{ color: T.fg4, fontSize: 10 }}>·</span>
               )}

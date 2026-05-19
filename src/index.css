@@ -198,6 +198,10 @@ body {
   100% { opacity: 1; transform: translateY(0); }
 }
 
+/* Footer team links */
+.team-link { transition: color 0.15s ease; }
+.team-link:hover { color: #64B5FF; text-decoration: underline; }
+
 /* Utilities */
 .line-clamp-2 {
   display: -webkit-box;
